@@ -1,5 +1,8 @@
 {
   "parserOptions": {
     "project": "src/tsconfig.json"
+  },
+  "rules": {
+    "jsdoc/check-tag-names": ["error", { "definedTags": ["units"] }]
   }
 }

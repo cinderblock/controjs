@@ -1,6 +1,8 @@
 import { matrix } from 'mathjs';
 import { System } from './System';
 
+/* eslint-disable jsdoc/check-alignment */
+
 type Options = {
   /**
    * Damping on ẋ

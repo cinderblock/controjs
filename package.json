@@ -11,6 +11,7 @@
     "svd"
   ],
   "scripts": {
+    "start": "ts-node --dir src index",
     "lint": "eslint \"**/*\"",
     "format": "prettier \"**/*\"",
     "spellcheck": "cspell \"**/*\"",

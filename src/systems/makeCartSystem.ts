@@ -6,16 +6,24 @@ import { System } from './System';
 type Options = {
   /**
    * Damping on ẋ
+   *
+   * @default 1
    */
   d: number;
 
   /**
    * Mass of pendulum
+   *
+   * @units kg
+   * @default 1
    */
   m: number;
 
   /**
    * Mass of cart
+   *
+   * @units kg
+   * @default 5
    */
   M: number;
 

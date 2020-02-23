@@ -1,0 +1,14 @@
+/dist/
+/public/
+/node_modules/
+/allure-results/
+
+package-lock.json
+
+# No Parser
+LICENSE
+.npmrc
+.*ignore
+.gitattributes
+.editorconfig
+.prettierignore

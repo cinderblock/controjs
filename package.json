@@ -47,7 +47,7 @@
     "jest-html-reporters": "^1.2.1",
     "jest-stare": "^1.26.0",
     "js-yaml": "^3.13.1",
-    "mathjs": "^6.6.0",
+    "mathjs": "git+https://github.com/cinderblock/mathjs.git#patch-eigens",
     "prettier": "^1.19.1",
     "puppeteer": "^2.1.1",
     "rmfr": "^2.0.0",

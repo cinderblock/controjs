@@ -14,6 +14,8 @@ const targetState: Matrix = matrix([1, 0, Math.PI, 0]);
 
 const cart = makeCart({ s: 'up' });
 
+console.log('Cart:', cart);
+
 console.log('Stability eigenvalues:', eig(cart.A));
 
 // cSpell:ignore ctrb eigs

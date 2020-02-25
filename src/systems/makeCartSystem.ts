@@ -3,6 +3,11 @@ import { System } from './System';
 
 /* eslint-disable jsdoc/check-alignment */
 
+// Based on "Control Bootcamp" by Steve Brunton
+// https://www.youtube.com/playlist?list=PLMrJAkhIeNNR20Mz-VpzgfQs5zrYi085m
+
+// cSpell:ignore bootcamp Brunton
+
 type Options = {
   /**
    * Damping on ẋ
